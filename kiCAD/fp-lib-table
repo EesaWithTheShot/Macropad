@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Macropad_Libs")(type "KiCad")(uri "${KIPRJMOD}/Macropad_Libs.pretty")(options "")(descr ""))
+)
