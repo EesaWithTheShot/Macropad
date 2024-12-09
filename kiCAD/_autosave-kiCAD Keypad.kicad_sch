@@ -3643,12 +3643,15 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:MIC5365-3.3YD5"
+		(symbol "Regulator_Linear:AP2112K-3.3"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -5.08 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3656,8 +3659,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MIC5365-3.3YD5"
-				(at 0 6.35 0)
+			(property "Value" "AP2112K-3.3"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3666,7 +3669,7 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.89 0)
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3674,8 +3677,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
-				(at -6.35 6.35 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3683,7 +3686,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5"
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3692,7 +3695,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Micrel LDO voltage regulator"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3701,7 +3704,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?23?5*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3710,10 +3713,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "MIC5365-3.3YD5_0_1"
+			(symbol "AP2112K-3.3_0_1"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3723,9 +3726,9 @@
 					)
 				)
 			)
-			(symbol "MIC5365-3.3YD5_1_1"
+			(symbol "AP2112K-3.3_1_1"
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -3761,7 +3764,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -2.54 0)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -3779,7 +3782,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 7.62 -2.54 180)
+					(at 5.08 0 180)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -3797,7 +3800,7 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 2.54 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "VOUT"
 						(effects
@@ -4474,6 +4477,12 @@
 		(uuid "1c0d8cb3-0594-41df-a5a0-6e1dfb906b03")
 	)
 	(junction
+		(at 104.14 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2145ff7f-4aea-43db-af7b-c384dbe7b389")
+	)
+	(junction
 		(at 59.69 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4730,12 +4739,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef06bb64-56b0-4bd6-a8a7-91d13dad19f0")
-	)
-	(junction
-		(at 104.14 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f22657d1-a7d3-4c0e-937d-6f519bfe02ac")
 	)
 	(junction
 		(at 243.84 58.42)
@@ -5177,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 33.02) (xy 92.71 27.94)
+			(xy 92.71 30.48) (xy 92.71 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +5330,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 92.71 33.02)
+			(xy 92.71 30.48) (xy 96.52 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5394,6 +5397,16 @@
 			(type default)
 		)
 		(uuid "3fb7b310-53a7-41db-beff-9e523e2d7c0b")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 118.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4180ea4c-95ee-4174-a22f-9824dd533819")
 	)
 	(polyline
 		(pts
@@ -6157,7 +6170,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 27.94) (xy 93.98 27.94)
+			(xy 92.71 27.94) (xy 96.52 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6544,16 +6557,6 @@
 			(type default)
 		)
 		(uuid "dd1e4437-5f11-4586-87c9-f1fad390092b")
-	)
-	(wire
-		(pts
-			(xy 114.3 27.94) (xy 118.11 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6feb7d-aba5-4cea-9572-d242a5b08760")
 	)
 	(wire
 		(pts
@@ -9911,6 +9914,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 104.14 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cabcf6-95b0-477d-822d-925b3d2337ae")
+		(property "Reference" "U4"
+			(at 104.14 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 104.14 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 104.14 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AP2112K-3.3TRG1"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2d77bda7-5489-439f-a616-cf18673da1f5")
+		)
+		(pin "1"
+			(uuid "4e204d6d-cce0-4f8c-af34-0d533aa1f8d0")
+		)
+		(pin "5"
+			(uuid "5cf8e32c-5788-4bce-af8e-5aa6721d13c2")
+		)
+		(pin "2"
+			(uuid "4aa80877-fcc6-40b1-aad7-e7ce5128f2d1")
+		)
+		(pin "4"
+			(uuid "6b7fe9d9-21aa-406b-bae5-43ce7bf842fb")
+		)
+		(instances
+			(project ""
+				(path "/86dc864e-2429-4d95-9365-f5e95864741c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 54.61 66.04 0)
 		(unit 1)
@@ -12226,110 +12333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:MIC5365-3.3YD5")
-		(at 104.14 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79b0b543-053e-4fb9-8b1d-a650dfc3ac17")
-		(property "Reference" "U3"
-			(at 104.14 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIC5365-3.3YD5"
-			(at 104.14 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 104.14 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
-			(at 97.79 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.com/en/products/detail/microchip-technology/MIC5301-3-3YD5-TR/1822000"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Microchip Technology"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "MIC5301-3.3YD5-TR"
-			(at 104.14 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f66f5d39-cbae-4375-a072-fbffecb13e0b")
-		)
-		(pin "1"
-			(uuid "0622c113-b5e0-4a41-8b73-9ffe45690c76")
-		)
-		(pin "3"
-			(uuid "e04cd2be-f379-4b28-99b4-6e80fdfbc2e2")
-		)
-		(pin "2"
-			(uuid "dac991ef-1ea4-47cd-8dd0-6c6ded2c6f64")
-		)
-		(pin "5"
-			(uuid "3fe04af2-d452-4b07-8977-90ae2f6d1301")
-		)
-		(instances
-			(project ""
-				(path "/86dc864e-2429-4d95-9365-f5e95864741c"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 62.23 128.27 0)
 		(unit 1)
@@ -13298,7 +13301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0u1F"
 			(at 247.65 55.8799 0)
 			(effects
 				(font

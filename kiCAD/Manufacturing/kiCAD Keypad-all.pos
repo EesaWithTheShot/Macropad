@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-12-05T21:41:44-0500 ###
+### Footprint positions - created on 2024-12-08T22:13:28-0500 ###
 ### Printed by KiCad version 8.0.6
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -26,7 +26,7 @@ D20       D                            Diode_DO-35                              
 D21       D                            Diode_DO-35                                                97.3137  -180.0225   90.0000  bottom
 C1        0u1F                         C_0402_1005Metric                                          81.2500   -47.9800   90.0000  top
 C2        10uF                         C_0805_2012Metric                                          77.2500   -48.0000   90.0000  top
-C3        1uF                          C_0805_2012Metric                                          72.7500   -57.2500    0.0000  top
+C3        0u1F                         C_0805_2012Metric                                          72.7500   -57.2500    0.0000  top
 C4        0u1F                         C_0402_1005Metric                                         103.2000   -64.0000   90.0000  top
 C5        1uF                          C_0805_2012Metric                                          60.0000   -48.2500  180.0000  top
 C6        1uF                          C_0805_2012Metric                                          68.7500   -48.2500  -90.0000  top
@@ -68,6 +68,6 @@ SW1       RESET                        SW_SPST_PTS647_Sx50                      
 SW2       BOOT                         SW_SPST_PTS647_Sx50                                       108.0000   -63.0000  -90.0000  top
 SW3       RotaryEncoder_Switch         XDCR_PEC11R-4215F-S0024                                   106.8387   -80.9625  180.0000  top
 U1        ESP32-S3-WROOM-2             ESP32-S3-WROOM-2                                           91.8600   -52.4100    0.0000  top
-U2        USBLC6-2SC6                  SOT-23-6                                                   55.5000   -49.3625  -90.0000  top
-U3        MIC5365-3.3YD5               SOT-23-5                                                   65.0000   -48.4000    0.0000  top
+U2        USBLC6-2SC6                  SOT-23-6                                                   55.5000   -47.3750  -90.0000  top
+U4        AP2112K-3.3                  SOT-23-5                                                   64.8375   -48.4000    0.0000  top
 ## End
