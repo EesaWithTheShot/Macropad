@@ -647,7 +647,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing/",
-      "pos_files": "./",
+      "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -736,18 +736,24 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Distributor Link",
           "name": "Distributor Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         }
       ],
