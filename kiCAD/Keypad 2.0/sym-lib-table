@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Feather")(type "KiCad")(uri "${KIPRJMOD}/Feather.kicad_sym")(options "")(descr ""))
+  (lib (name "Keypad 2.0-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Keypad 2.0-eagle-import.kicad_sym")(options "")(descr ""))
+)

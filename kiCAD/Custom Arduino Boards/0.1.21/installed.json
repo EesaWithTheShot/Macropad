@@ -1,0 +1,57 @@
+{
+  "packages": [
+    {
+      "name": "community_nrf52",
+      "maintainer": "Pierre Constantineau",
+      "websiteUrl": "https://github.com/jpconstantineau/Community_nRF52_Arduino",
+      "Url": "https://github.com/jpconstantineau/Community_nRF52_Arduino/releases/latest/download/package_jpconstantineau_boards_index.json",
+      "email": "pierre@jpconstantineau.com",
+      "platforms": [
+        {
+          "name": "Community Add on to Adafruit nRF52",
+          "architecture": "nrf52",
+          "version": "0.1.21",
+          "deprecated": false,
+          "category": "Contributed",
+          "url": "https://github.com/jpconstantineau/Community_nRF52_Arduino/releases/download/0.1.21/jpconstantineau-community-nrf52-0.1.21.zip",
+          "archiveFileName": "jpconstantineau-community-nrf52-0.1.21.zip",
+          "checksum": "SHA-256:b8c3c8fe21bc268cbde636062b25f634546b8772dcfe39ca6fa32d43cebb88f8",
+          "size": "32727913",
+          "boards": [
+            {
+              "name": "Nordic PCA10056"
+            },
+            {
+              "name": "Nordic PCA10059"
+            },
+            {
+              "name": "BlueMicro nrf52840"
+            }
+          ],
+          "help": {
+            "online": "https://github.com/jpconstantineau/Community_nRF52_Arduino/wiki"
+          },
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ],
+          "discoveryDependencies": [],
+          "monitorDependencies": []
+        }
+      ],
+      "tools": [],
+      "help": {
+        "online": "https://github.com/jpconstantineau/Community_nRF52_Arduino"
+      }
+    }
+  ],
+  "IsTrusted": false
+}

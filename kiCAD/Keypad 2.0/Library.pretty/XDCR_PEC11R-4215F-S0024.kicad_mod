@@ -1,0 +1,343 @@
+(footprint "XDCR_PEC11R-4215F-S0024"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.175 -8.835 0)
+		(layer "F.SilkS")
+		(uuid "23b80b37-3472-49f2-b57d-92e7d852e576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_PEC11R-4215F-S0024"
+		(at 7.255 9.315 0)
+		(layer "F.Fab")
+		(uuid "e9074189-2c4d-4f8b-8737-05b14fadeb74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78168815-5a71-4b0a-bd0c-d4bb8f30c164")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe571c2-1804-49e7-a006-3c9cbe1269a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6b0eaa9-55ea-4e22-847f-699a8fb1341d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.25 -6.7)
+		(end -3.7 -6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "607dd6de-d59b-48f9-a025-d1e6cb9aa733")
+	)
+	(fp_line
+		(start -6.25 -3.4)
+		(end -6.25 -6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70e293d0-b38f-4d4b-867a-7f22851eec17")
+	)
+	(fp_line
+		(start -6.25 3.4)
+		(end -6.25 6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7da0e558-7bf6-41de-97a8-18eebcaf30f0")
+	)
+	(fp_line
+		(start -6.25 6.7)
+		(end -3.7 6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cae00b6-c5bc-4f22-a5bd-f709843b9f25")
+	)
+	(fp_line
+		(start 3.7 -6.7)
+		(end 6.25 -6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91366cc8-c980-47b6-9ec2-1de3babe160f")
+	)
+	(fp_line
+		(start 3.7 6.7)
+		(end 6.25 6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e993f090-f34e-4cc2-b44c-f1ae3c9a6418")
+	)
+	(fp_line
+		(start 6.25 -6.7)
+		(end 6.25 -3.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7132e03-6f54-4ded-bd11-6e44fbf24865")
+	)
+	(fp_line
+		(start 6.25 6.7)
+		(end 6.25 3.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9daa88ce-45b7-4532-a803-1b04b6b15ed0")
+	)
+	(fp_circle
+		(center -4.2 -7.6)
+		(end -4.1 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d83d9d73-259e-4255-9e98-3eb333e23f6f")
+	)
+	(fp_line
+		(start -7.45 -8.1)
+		(end -7.45 8.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "328982a7-7fa9-4c28-8b61-391dbb7fa60f")
+	)
+	(fp_line
+		(start -7.45 8.6)
+		(end 7.45 8.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6335e378-5725-42a0-af1e-209ab63a7a96")
+	)
+	(fp_line
+		(start 7.45 -8.1)
+		(end -7.45 -8.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aa9d799-5400-468a-abf7-ab29284fc1b0")
+	)
+	(fp_line
+		(start 7.45 8.6)
+		(end 7.45 -8.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1afd72ce-94a7-4e24-8550-705e28c21ebc")
+	)
+	(fp_line
+		(start -6.25 -6.7)
+		(end 6.25 -6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6ea401c-2b7f-49f1-87bc-77d544cdf60a")
+	)
+	(fp_line
+		(start -6.25 6.7)
+		(end -6.25 -6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00c4d16c-49bf-4d19-91a6-5310a50891da")
+	)
+	(fp_line
+		(start 6.25 -6.7)
+		(end 6.25 6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce4eabbc-1baf-46c3-936e-93e16aacd199")
+	)
+	(fp_line
+		(start 6.25 6.7)
+		(end -6.25 6.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bd72cc1-5a41-486d-b4dd-4e0fc7af0278")
+	)
+	(fp_circle
+		(center -4.2 -7.6)
+		(end -4.1 -7.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2df6d54c-ff05-4f6d-8746-f727a0d56a2a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1ec5f762-80e1-4f74-9a6a-7d14b5d0bef4")
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 -7)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3f57bdef-d4b8-4372-9166-dfb325d9fefd")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -7)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "81492691-e8c4-4820-b391-02254f35ad18")
+	)
+	(pad "A" thru_hole circle
+		(at -2.5 7.5)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f625f758-67de-4e96-938e-57a0ad1375d1")
+	)
+	(pad "B" thru_hole circle
+		(at 2.5 7.5)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "36e26fb3-874f-420f-b3f4-7290c2147ee6")
+	)
+	(pad "COM" thru_hole circle
+		(at 0 7.5)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e3cb99aa-3f0d-4663-af04-fd3faf799b17")
+	)
+	(pad "S1" thru_hole oval
+		(at -5.7 0)
+		(size 3 6)
+		(drill oval 2 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a94b2c2a-2b86-499f-83b4-d293995233b5")
+	)
+	(pad "S2" thru_hole oval
+		(at 5.7 0)
+		(size 3 6)
+		(drill oval 2 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e27bc685-0465-4556-a347-6ea4682629a6")
+	)
+	(model "${KIPRJMOD}/PEC11R-4215F-S0024.step"
+		(offset
+			(xyz 0 0 7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 0)
+		)
+	)
+	(model "C:/Users/eesaa/OneDrive/Desktop/Macropad/kiCAD/PEC11R-4215F-S0024.step"
+		(offset
+			(xyz 0 -0.2 7.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
